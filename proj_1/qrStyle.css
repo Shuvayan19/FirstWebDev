@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(222, 236, 247);
+
+}
+#img1{
+    border-radius: 25px;
+  /* border: 2px solid #73AD21; */
+  padding: 10px 10px 10px 10px;
+
+  width: 280px;
+  height: 290px; 
+}
+.display{
+    text-align: center;
+    border: 2px solid white;
+    border: 30px 60px;
+    border-radius: 20px ;
+    background-color: white ;
+    /* padding: 10px; */
+    padding-left: 2px;
+    margin-left: 40%;
+    margin-top: 15%;
+    margin-right: 43%;
+    margin-bottom: 15%;
+    /* border: 23px 40px; */
+}
+#heading{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 1;
+    
+}
+#para{
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+    padding-bottom: 12px;
+}
