@@ -7,8 +7,8 @@ body{
   /* border: 2px solid #73AD21; */
   padding: 10px 10px 10px 10px;
 
-  width: 280px;
-  height: 290px; 
+  width: 200px;
+  height: 200px; 
 }
 .display{
     text-align: center;
@@ -36,3 +36,19 @@ body{
     color: rgb(128, 128, 128);
     padding-bottom: 12px;
 }
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0 5px;
+  }
+
+  .counter-value {
+    font-size: 1.2rem;
+  }

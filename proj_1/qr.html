@@ -12,11 +12,19 @@
 <body>
     <div class="display">
          <div>
-            <img id="img1" src="images/image-qr-code.png" alt="QR_SCAN img" height="200" width="200">
+            <img id="img1" src="images/image-qr-code.png" alt="QR_SCAN img" >
         </div>
         <h3 id="heading">Improve your front-end <br>skills by building projects </h3>
         <p id="para">Scan the QR code to visit Frontend <br>Mentor and take your coding skills to <br>the next level </p>
+        <div class="menu-item" data-item-id="1">
+           
+            <div class="counter-container">
+              <div class="counter-btn" onclick="decrement(1)">-</div>
+              <div class="counter-value" id="orderCount1">0</div>
+              <div class="counter-btn" onclick="increment(1)">+</div>
+            </div>
+          </div>
     </div>
-    
+    <script src="qr.js"></script>
 </body>
 </html>
